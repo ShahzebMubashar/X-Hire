@@ -1,14 +1,17 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Open main.html",
-            "file": "c:\\Users\\shahz\\Documents\\Visual Studio 2022\\New folder\\main.html"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch painter.html",
+      "file": "${workspaceFolder}/painter.html",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "trace": true,
+      "skipFiles": [
+        "node_modules/**/*.js"
+      ]
+    }
+  ]
 }
