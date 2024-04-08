@@ -270,43 +270,19 @@ body, h1, h2, h3, p, ul, li {
     margin: 0 auto;
   }
   
-  .circle-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #000; /* Set the background color of the circle */
-    width: 200px; /* Set the width of the circle */
-    height: 200px; /* Set the height of the circle */
-    border-radius: 50%;
-    z-index: 0; /* Ensure it's behind the image */
-  }
   
   .seller-img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-size: cover;
-    width: 1000px; /* Set the width of the image */
-    height: 300px; /* Set the height of the image */
-    border-radius: 50%;
+    /* background-size: cover; */
+    width: 1500px; /* Set the width of the image */
+    height: 1000px; /* Set the height of the image */
     z-index: 1; /* Ensure it's above the black circle */
   }
   
-  
-  .circle-shape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #000; /* Color of the circle shape */
-    opacity: 0.7; /* Adjust the opacity as needed */
-    z-index: 0;
-  }
-  
+
   
 
 
