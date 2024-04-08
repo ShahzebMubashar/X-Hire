@@ -204,7 +204,9 @@ body, h1, h2, h3, p, ul, li {
   }
   
 
-/* Updated Hero Styles */
+
+
+  /* Updated Hero Styles */
 
 .hero {
     position: relative;
@@ -227,6 +229,7 @@ body, h1, h2, h3, p, ul, li {
   .right-hero {
     flex: 1;
     padding: 20px;
+    text-align: left; /* Align text to left */
   }
   
   .center-hero {
