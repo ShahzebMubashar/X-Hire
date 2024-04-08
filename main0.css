@@ -206,7 +206,7 @@ body, h1, h2, h3, p, ul, li {
 
 
 
-  /* Updated Hero Styles */
+/* Updated Hero Styles */
 
 .hero {
     position: relative;
@@ -270,11 +270,17 @@ body, h1, h2, h3, p, ul, li {
     margin: 0 auto;
   }
   
-  .hero-img img {
+  .circle-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; /* Set maximum width to 100% */
+    max-height: 100%; /* Set maximum height to 100% */
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
+    z-index: 1;
   }
+  
   
   .circle-shape {
     position: absolute;
@@ -285,10 +291,10 @@ body, h1, h2, h3, p, ul, li {
     border-radius: 50%;
     background-color: #000; /* Color of the circle shape */
     opacity: 0.7; /* Adjust the opacity as needed */
-    z-index: -1;
+    z-index: 0;
   }
   
-
+  
 
 
   
