@@ -206,9 +206,7 @@ body, h1, h2, h3, p, ul, li {
 
 
 
-/* Updated Hero Styles */
-
-.hero {
+  .hero {
     position: relative;
     text-align: center;
     padding: 250px 0;
@@ -218,25 +216,26 @@ body, h1, h2, h3, p, ul, li {
   }
   
   .container_hero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
   }
   
   .left-hero,
   .right-hero {
-    flex: 1;
+    display: inline-block;
+    width: 300px;
     padding: 20px;
     text-align: left; /* Align text to left */
   }
   
   .center-hero {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1000px;
   }
   
   .hero h1 {
@@ -252,13 +251,17 @@ body, h1, h2, h3, p, ul, li {
     color: #000;
   }
   
-  
   .seller-img {
     position: absolute;
-    top: 50%;
-    left: 50%;
- 
+    top: 0;
+    left: 0;
+    width: 1000px; /* Updated width to 1000px */
+    height: 1000px; /* Updated height to 1000px */
+    background-size: cover;
+    background-position: center;
   }
+  
+
   
 
 
