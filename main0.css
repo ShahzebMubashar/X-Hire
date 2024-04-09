@@ -350,19 +350,22 @@ body, h1, h2, h3, p, ul, li {
     position: absolute;
     margin-left: 77.4%; /* Adjust margin */
     margin-top: 20%;
+    z-index: 1;
   }
   
-  .herobtn a{
+  .herobtn .herobtna{
     background-color: #fff;
     color: #000;
     padding: 10px 100px;
     border-radius: 5px;
     font-size: 16px;
-    background-color: #007bff; /* Blue color for sign up button */
+    /* background-color: #007bff;  */
     text-decoration: none;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
   }
   
-  .herobtn a:hover {
+  .herobtn .herobtna:hover {
     background-color: #333;
     cursor: pointer;
+    color: white;
   }
