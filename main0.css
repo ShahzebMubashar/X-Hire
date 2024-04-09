@@ -270,13 +270,15 @@ body, h1, h2, h3, p, ul, li {
   .righttext h3 {
     margin: 0;
     font-size: 24px;
-    padding-right: 3%;
+    width: 40%;
+    margin-left: 55%;
+    text-align: left;
+    color: #1E90FF;
   }
   
   .righttext h4 {
     margin-top: 9px;
     font-size: 18px;
-    padding-right: 3%;
     width: 40%;
     margin-left: 55%;
     text-align: left;
