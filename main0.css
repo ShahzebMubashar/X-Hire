@@ -347,6 +347,7 @@ body, h1, h2, h3, p, ul, li {
   } 
 
   .herobtn{
+    margin-top: 30%;
     margin-left: 10px; /* Adjust margin */
   }
   
@@ -359,6 +360,7 @@ body, h1, h2, h3, p, ul, li {
     background-color: #007bff; /* Blue color for sign up button */
     text-decoration: none;
   }
+
   .herobtn:hover {
     background-color: #333;
   }
