@@ -209,19 +209,31 @@ body, h1, h2, h3, p, ul, li {
       justify-content: space-between;
       align-items: center;
       background-image: url('painter.jpg');
-      background-size: 80%; /* Adjust the background size to 80% */
+      background-size: 70%; /* Adjust the background size to 80% */
       background-position: center;
       color: #fff;
-      padding: 50px;
+      margin-top: -0.2%;
       width: 100vw;
-      height: 100vh;
+      height: 98.6vh;
       z-index: -1;
+  }
 
+  .herooverlay{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 26, 26, 0.7); /* Adjust overlay opacity */
+  }
+
+  .text_container{
     
   }
 
   .lefttext {
     flex: 1;
+    color: #fff;
   }
 
   .righttext {
