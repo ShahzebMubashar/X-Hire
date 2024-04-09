@@ -260,14 +260,14 @@ body, h1, h2, h3, p, ul, li {
     line-height: 1.4;
   }
   
-  .righttext {
+  .righttext1 {
     flex: 1;
     text-align: right;
     width: 10%; /* Set width to 20% */
     order: 1;
   }
   
-  .righttext h3 {
+  .righttext1 h3 {
     margin: 0;
     font-size: 24px;
     width: 40%;
@@ -276,7 +276,7 @@ body, h1, h2, h3, p, ul, li {
     color: #1E90FF;
   }
   
-  .righttext h4 {
+  .righttext1 h4 {
     margin-top: 9px;
     font-size: 18px;
     width: 40%;
@@ -284,7 +284,7 @@ body, h1, h2, h3, p, ul, li {
     text-align: left;
   }
   
-  .righttext p {
+  .righttext1 p {
     margin-top: -1%;
     font-size: 16px;
     color: #ccc;
