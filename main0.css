@@ -277,6 +277,9 @@ body, h1, h2, h3, p, ul, li {
     margin-top: 9px;
     font-size: 18px;
     padding-right: 3%;
+    width: 40%;
+    margin-left: 55%;
+    text-align: left;
   }
   
   .righttext p {
@@ -286,7 +289,7 @@ body, h1, h2, h3, p, ul, li {
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
     width: 40%;
-    margin-left: 37%;
+    margin-left: 55%;
     text-align: left;
   }
   
