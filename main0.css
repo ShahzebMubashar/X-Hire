@@ -205,52 +205,62 @@ body, h1, h2, h3, p, ul, li {
 
  
   .hero {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-image: url('painter.jpg');
-      background-size: 70%; /* Adjust the background size to 80% */
-      background-position: center;
-      color: #fff;
-      margin-top: -0.2%;
-      width: 100vw;
-      height: 98.6vh;
-      z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('painter.jpg');
+    background-size: 70%;
+    background-position: center;
+    color: #fff;
+    margin-top: -0.2%;
+    width: 100vw;
+    height: 98.6vh;
+    z-index: -1;
+    position: relative; /* Added position relative */
   }
-
-  .herooverlay{
+  
+  .herooverlay {
     position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(30, 26, 26, 0.7); /* Adjust overlay opacity */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 26, 26, 0.7); /* Adjust overlay opacity */
   }
-
-  .text_container{
-    
+  
+  .text_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 1;
   }
-
+  
   .lefttext {
     flex: 1;
     color: #fff;
+    text-align: left;
+    width: 20%; /* Set width to 20% */
+    order: 0;
   }
-
+  
   .righttext {
     flex: 1;
     text-align: right;
+    width: 20%; /* Set width to 20% */
+    order: 1;
   }
-
+  
   .righttext h3 {
     margin: 0;
     font-size: 24px;
   }
-
+  
   .righttext h4 {
     margin-top: 5px;
     font-size: 18px;
   }
-
+  
   .righttext p {
     margin-top: 20px;
     font-size: 16px;
@@ -258,3 +268,4 @@ body, h1, h2, h3, p, ul, li {
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
   }
+  
