@@ -203,7 +203,41 @@ body, h1, h2, h3, p, ul, li {
     background-color: #333;
   }
 
-  .hero{
-    background-image: url("painter.jpg");
-    
+ 
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('painter.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px;
+  }
+
+  .lefttext {
+    flex: 1;
+  }
+
+  .righttext {
+    flex: 1;
+    text-align: right;
+  }
+
+  .righttext h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .righttext h4 {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+
+  .righttext p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ccc;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
   }
