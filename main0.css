@@ -274,13 +274,13 @@ body, h1, h2, h3, p, ul, li {
   }
   
   .righttext h4 {
-    margin-top: 5px;
+    margin-top: 9px;
     font-size: 18px;
     padding-right: 3%;
   }
   
   .righttext p {
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: 16px;
     color: #ccc;
     border-bottom: 1px solid gray;
