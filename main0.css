@@ -205,14 +205,19 @@ body, h1, h2, h3, p, ul, li {
 
  
   .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url('painter.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-image: url('painter.jpg');
+      background-size: 80%; /* Adjust the background size to 80% */
+      background-position: center;
+      color: #fff;
+      padding: 50px;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+
+    
   }
 
   .lefttext {
