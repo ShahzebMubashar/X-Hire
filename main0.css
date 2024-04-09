@@ -129,7 +129,7 @@ body, h1, h2, h3, p, ul, li {
   }
   
   .dropdown-menu a:hover {
-  color: #2d2d2d;
+  color: #cacaca;
   border-bottom: 3px solid gray;
   }
   
@@ -242,6 +242,22 @@ body, h1, h2, h3, p, ul, li {
     text-align: left;
     width: 10%; /* Set width to 20% */
     order: 0;
+    padding-left: 3%;
+  }
+
+  .lefttext h1{
+    /* padding-left: 4%; */
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  .lefttext p{
+    /* padding-left: 4%; */
+    font-size: 18px;
+    text-align: justify;
+    font-weight: lighter;
+    color: snow;
+    line-height: 1.4;
   }
   
   .righttext {
@@ -254,18 +270,22 @@ body, h1, h2, h3, p, ul, li {
   .righttext h3 {
     margin: 0;
     font-size: 24px;
+    padding-right: 3%;
   }
   
   .righttext h4 {
     margin-top: 5px;
     font-size: 18px;
+    padding-right: 3%;
   }
   
   .righttext p {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 16px;
     color: #ccc;
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
+    width: 60%;
+    margin-left: 37%;
   }
   
