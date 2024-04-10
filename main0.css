@@ -653,6 +653,7 @@ content: '\25B2'; /* Upward arrow */
 .ratings {
   color: #f8f9fa;
   margin-top: 10px;
+  margin-bottom: -25%;
 }
 
 .fa-star {
@@ -662,4 +663,9 @@ content: '\25B2'; /* Upward arrow */
 
 .checked {
   color: #ffc107;
+}
+
+.money{
+  margin-left: 41%;
+  margin-top: 14.9%;
 }
