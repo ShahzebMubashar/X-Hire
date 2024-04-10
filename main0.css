@@ -57,6 +57,7 @@ body, h1, h2, h3, p, ul, li {
     border-radius: 5px;
     font-size: 16px;
     margin-left: 15px;
+    margin-top: -10px;
   }
   
   .btn.signup {
@@ -348,27 +349,116 @@ body, h1, h2, h3, p, ul, li {
 
   
   .herobtn{
-    position: relative;
-    margin-left: 77.4%; 
-   height:10%;
-   z-index: -1;
+    position: absolute;
+    margin-top: -160px; 
+    margin-left: 1185px;
   }
   
-  .herobtn .herobtna{
+  .herobtn .herobtnsee{
     background-color: #fff;
     color: #000;
-    /* padding: 10px 100px; */
-    padding: 2px;
+    font-weight: 500;
+    padding: 10px 100px;
     border-radius: 5px;
     font-size: 16px;
-    /* background-color: #007bff;  */
+    background-color: #007bff; 
     text-decoration: none;
     transition: background-color 0.3s ease; /* Add transition for smooth effect */
 
   }
   
-  .herobtn .herobtna:hover {
+  .herobtn .herobtnsee:hover {
     background-color: #333;
     cursor: pointer;
     color: white;
   }
+
+
+  .features {
+    padding: 50px 0 10px; /* Adjust padding */
+    text-align: right;
+    background-color: #000; /* Black background color */
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around; /* Adjust layout */
+    width: 120%;
+}
+
+.feature {
+    text-align: left;
+    margin-bottom: 40px;
+    flex: 0 1 calc(25% - 40px); /* Adjust width for 4 features */
+    margin: -20px 20px 0 -200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+#feature1img{
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    background-size: 10%; 
+    margin-left: 38%;
+    margin-top: -5%;
+}
+
+#feature2img{
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    background-size: 10%; 
+    margin-left: 40%;
+    margin-top: -5%;
+}
+
+#feature3img{
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    background-size: 10%; 
+    margin-left: 40%;
+    margin-top: -5%;
+}
+
+#feature4img{
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    background-size: 10%; 
+    margin-left: 40%;
+    margin-top: -5%;
+}
+
+.feature-content {
+    padding: 20px;
+    background-color: #fff;
+    background-position: -10px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.feature:hover .feature-content {
+    transform: translateY(-20px);
+}
+
+.feature-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-content p {
+    font-size: 16px;
+}
+
