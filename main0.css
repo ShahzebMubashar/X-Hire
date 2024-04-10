@@ -595,3 +595,19 @@ content: '\25B2'; /* Upward arrow */
   font-size: 16px;
 }
 
+/* Star Ratings */
+.ratings {
+  color: #f2b01e;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.fa-star {
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.checked {
+  color: #f2b01e;
+}
