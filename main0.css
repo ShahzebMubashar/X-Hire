@@ -625,18 +625,23 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .post img {
-  width: 30%;
+  width: 20%;
   height: auto;
   display: inline;
+  margin-top: 10px;
+  margin-left: 10px;
+
 }
 
 .post-content {
   padding: 20px;
+  padding-left: 100px;
 }
 
 .post-content h3 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-top: -37%;
+  margin-bottom: 1%;
 }
 
 .post-content p {
