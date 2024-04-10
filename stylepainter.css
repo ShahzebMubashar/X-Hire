@@ -229,21 +229,18 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .text_container {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     position: relative;
-    z-index: 1;
+   
     margin-top: 20px; /* Add margin to separate sections */
 }
 
 .lefttext {
-  flex: 1;
+  position: relative;
   color: #fff;
   text-align: left;
-  width: 50%; /* Set width to 20% */
-  order: 0;
-  padding-left: 3%;
+  width: 0%; 
+  display: inline;
 }
 
 .lefttext h1{
@@ -264,11 +261,12 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .righttext1 {
-  flex: 1;
   text-align: left;
-  width: 40%; /* Set width to 20% */
-  order: 1;
+  width: 100%; /* Set width to 20% */
   height: 20%;
+  margin-top: 10%;
+  display: inline;
+  margin-left: -23.5%;
 }
 
 .righttext1 h3 {
@@ -301,75 +299,12 @@ content: '\25B2'; /* Upward arrow */
   text-align: left;
 }
 
-
-.righttext2 {
-  flex: 1;
-  text-align: left;
-  width: 20%; /* Set width to 20% */
-  /* order: 0; */
-  height: 20%;
-  display: inline;
+.righttext2{
   position: relative;
+  display: inline;
+  margin-left: 55%;
 }
-
-
-.righttext2 h3 {
-  /* position: relative; */
-  margin: 0;
-  font-size: 24px;
-  /* width: 40%; */
-  margin-top: 10%;
-  margin-right: -40%;
-  text-align: left;
-  color: #1E90FF;
-  margin-left: 42%;
-} 
-
-.righttext2 h4 {
-  /* position: absolute; */
-  margin: 0;
-  font-size: 18px;
-  /* width: 40%; */
-  margin-top: 12.3%;
-  margin-left: 42%;
-  text-align: left;
-}
-
-.righttext2 p {
-  /* position: absolute; */
-  margin: 0;
-  font-size: 16px;
-  margin-left: 42%;
-  /* width: 40%; */
-  margin-top: 15%;
-  margin-right: -40%;
-  text-align: left;
-  color: #ccc;
-} 
-
 
 .herobtn{
-  position: relative;
-  margin-left: 77.4%; 
- height:10%;
- z-index: -1;
-}
-
-.herobtn .herobtna{
-  background-color: #fff;
-  color: #000;
-  /* padding: 10px 100px; */
-  padding: 2px;
-  border-radius: 5px;
-  font-size: 16px;
-  /* background-color: #007bff;  */
-  text-decoration: none;
-  transition: background-color 0.3s ease; /* Add transition for smooth effect */
-
-}
-
-.herobtn .herobtna:hover {
-  background-color: #333;
-  cursor: pointer;
-  color: white;
+  z-index: 10;
 }
