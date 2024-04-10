@@ -596,8 +596,7 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .posts {
-  background-color: rgb(1, 40, 79, 0.3);
-  
+  background-color: rgba(116, 120, 123, 0.8);
   padding: 40px 0;
   width: 80%;
   margin: 5% auto;
@@ -608,7 +607,8 @@ content: '\25B2'; /* Upward arrow */
 .posts h1{
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: #fff;
+  margin-bottom: 2%;
 }
 
 .posts .container {
@@ -674,7 +674,8 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .money{
-  margin-left: 50%;
+  margin-left: 58%;
+  width: 43%;
   margin-top: 14.9%;
   border: 2px solid gray;
   border-radius: 10px;
@@ -682,6 +683,5 @@ content: '\25B2'; /* Upward arrow */
 
 .money p{
   font-size: 15px;
-  padding-left: 8%;
-  padding-right: 7%;
+  padding-left: 10%;
 }
