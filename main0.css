@@ -666,6 +666,14 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .money{
-  margin-left: 45%;
+  margin-left: 50%;
   margin-top: 14.9%;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.money p{
+  font-size: 15px;
+  padding-left: 8%;
+  padding-right: 7%;
 }
