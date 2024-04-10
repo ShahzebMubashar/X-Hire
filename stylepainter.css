@@ -281,7 +281,7 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .righttext1 h4 {
-  position: relative;
+  /* position: relative; */
   margin-top: 9px;
   font-size: 18px;
   width: 100%;
@@ -290,7 +290,7 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .righttext1 p {
-  position: relative;
+  /* position: relative; */
   margin-top: -1%;
   font-size: 16px;
   color: #ccc;
@@ -306,14 +306,15 @@ content: '\25B2'; /* Upward arrow */
   flex: 1;
   text-align: left;
   width: 20%; /* Set width to 20% */
-  order: 0;
+  /* order: 0; */
   height: 20%;
   display: inline;
+  position: relative;
 }
 
 
 .righttext2 h3 {
-  position: absolute;
+  /* position: relative; */
   margin: 0;
   font-size: 24px;
   /* width: 40%; */
@@ -325,7 +326,7 @@ content: '\25B2'; /* Upward arrow */
 } 
 
 .righttext2 h4 {
-  position: absolute;
+  /* position: absolute; */
   margin: 0;
   font-size: 18px;
   /* width: 40%; */
@@ -335,7 +336,7 @@ content: '\25B2'; /* Upward arrow */
 }
 
 .righttext2 p {
-  position: absolute;
+  /* position: absolute; */
   margin: 0;
   font-size: 16px;
   margin-left: 42%;
