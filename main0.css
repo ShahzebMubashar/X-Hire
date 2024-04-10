@@ -48,6 +48,11 @@ body, h1, h2, h3, p, ul, li {
     color: #fff;
     text-decoration: none;
   }
+
+  .login{
+
+    margin-bottom: -30px;
+  }
   
   .btn {
     background-color: #000;
@@ -62,7 +67,6 @@ body, h1, h2, h3, p, ul, li {
   
   .btn.signup {
     background-color: #007bff;
-    margin-bottom: 20px;
   }
   
   .btn:hover {
