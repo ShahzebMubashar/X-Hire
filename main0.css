@@ -595,19 +595,66 @@ content: '\25B2'; /* Upward arrow */
   font-size: 16px;
 }
 
-/* Star Ratings */
+.posts {
+  background-color: #6e7071;
+  padding: 40px 0;
+  width: 90%;
+  margin: 5% auto;
+  border-radius:20px ;
+}
+
+.posts .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post {
+  width: calc(33.33% - 50px); /* Adjust width to fit 3 in a row */
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.post img {
+  width: 30%;
+  height: auto;
+  display: inline;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.post-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
 .ratings {
-  color: #f2b01e;
-  display: inline-block;
-  font-size: 18px;
+  color: #f8f9fa;
   margin-top: 10px;
 }
 
 .fa-star {
-  font-size: 16px;
-  margin-right: 2px;
+  color: #f8f9fa;
+  font-size: 14px;
 }
 
 .checked {
-  color: #f2b01e;
+  color: #ffc107;
 }
