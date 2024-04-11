@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   color: #333;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .container {
@@ -745,6 +745,7 @@ content: '\25B2'; /* Upward arrow */
 .ratings-orders {
   display: flex;
   align-items: center;
+  margin-top: 2%;
 }
 
 .ratings-orders p {
@@ -756,7 +757,8 @@ content: '\25B2'; /* Upward arrow */
 .post-actions {
   display: flex;
   justify-content: flex-end;
-  align-items: center; /* Align items vertically */
+  align-items: center;
+  margin-top: -4.5%;
 }
 
 .post-actions button {
