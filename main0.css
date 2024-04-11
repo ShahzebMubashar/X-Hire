@@ -778,3 +778,14 @@ content: '\25B2'; /* Upward arrow */
 .post-actions button:hover {
   background-color: #0056b3;
 }
+
+
+.new-post2 {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: -3.5%;
+  height: auto;
+}
