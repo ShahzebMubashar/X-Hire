@@ -692,7 +692,7 @@ content: '\25B2'; /* Upward arrow */
   width: 90%;
   margin: 0 auto;
   border-radius: 10px;
-  margin-top: 50px; /* Adjust margin top as needed */
+  margin-top: 50px; 
   height:10%
 }
 
@@ -719,23 +719,23 @@ content: '\25B2'; /* Upward arrow */
   margin: 20px;
 }
 
-.post-content {
+.newpost-content {
   padding: 20px;
   padding-left: 0;
   flex: 1;
 }
 
-.post-details {
+.newpost-details {
   margin-bottom: 20px;
 }
 
-.post-details h3 {
+.newpost-details h3 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #333;
 }
 
-.post-details p {
+.newpost-details p {
   font-size: 16px;
   color: #666;
   line-height: 1.6;
