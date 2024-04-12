@@ -104,9 +104,11 @@ a:hover i{
   overflow-y: auto;
 }
 
-/* .sidebar-header {
-  margin-bottom: 20px;
-} */
+.sidebar-header {
+  padding-top: 1%;
+  background-color: #343a40;
+  color: white;
+}
 
 .sidebar-header h3 {
   font-size: 24px;
@@ -176,6 +178,7 @@ a:hover i{
   background-color: #fff;
   min-height: 100vh;
   overflow-y: auto;
+  margin-top: 20%;
 }
 
 .dashboard-header h2 {
