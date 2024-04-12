@@ -91,7 +91,7 @@ a:hover i{
 * Sidebar */
 .dashboard-container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
@@ -99,18 +99,18 @@ a:hover i{
   flex: 1;
   background-color: #343a40;
   color: #fff;
-  padding: 20px;
-  width: 100%;
+  padding: 5px;
+  width: 99%;
   overflow-y: auto;
 }
 
-.sidebar-header {
+/* .sidebar-header {
   margin-bottom: 20px;
-}
+} */
 
 .sidebar-header h3 {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .sidebar-header p {
@@ -118,11 +118,15 @@ a:hover i{
 }
 
 .sidebar-links {
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  width: 200px;
+  height: 30px;
+  justify-content:space-between;
 }
 
 .sidebar-links li {
-  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .sidebar-links a {
@@ -130,11 +134,26 @@ a:hover i{
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease;
+  margin: 0 -20px;
 }
+
 
 .sidebar-links a:hover {
   color: #ffc107;
 }
+
+
+/* #sidebarlink1{
+  margin-left: 20px;
+  }
+
+  #sidebarlink2{
+    margin-left: -100px;
+  }
+
+  #sidebarlink4{
+    margin-left: -90px;
+  } */
 
 /* Main Content */
 .dashboard-main {
