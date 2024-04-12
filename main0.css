@@ -88,7 +88,7 @@ a:hover i{
   display: flex;
 }
 
-* Sidebar */
+* Sidebar
 .dashboard-container {
   display: flex;
   /* flex-wrap: wrap; */
@@ -100,7 +100,7 @@ a:hover i{
   background-color: #343a40;
   color: #fff;
   padding: 5px;
-  width: 99%;
+  width: 100%;
   overflow-y: auto;
 }
 
@@ -120,7 +120,7 @@ a:hover i{
 .sidebar-links {
   list-style: none;
   display: flex;
-  width: 200px;
+  width: 60%;
   height: 30px;
   justify-content:space-between;
 }
@@ -135,6 +135,7 @@ a:hover i{
   font-size: 18px;
   transition: color 0.3s ease;
   margin: 0 -20px;
+  width: 100px;
 }
 
 
@@ -143,17 +144,17 @@ a:hover i{
 }
 
 
-/* #sidebarlink1{
-  margin-left: 20px;
+ #sidebarlink1{
+  margin-right: -10%;
   }
 
-  #sidebarlink2{
+  /* #sidebarlink2{
     margin-left: -100px;
   }
 
   #sidebarlink4{
     margin-left: -90px;
-  } */
+  }  */
 
 /* Main Content */
 .dashboard-main {
