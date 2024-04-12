@@ -11,7 +11,13 @@
 }
 body{
   background: rgb(226, 226, 226);
+  width: 100%;
 }
+
+.screen{
+width: 100%;
+}
+
 nav{
   position: sticky;
   top: 0;
@@ -82,9 +88,11 @@ a:hover i{
   display: flex;
 }
 
-/* Sidebar */
+* Sidebar */
 .dashboard-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .dashboard-sidebar {
@@ -92,7 +100,7 @@ a:hover i{
   background-color: #343a40;
   color: #fff;
   padding: 20px;
-  height: 100vh;
+  width: 100%;
   overflow-y: auto;
 }
 
@@ -147,6 +155,9 @@ a:hover i{
 .portfolio-section,
 .financials-section,
 .offers-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 
@@ -167,6 +178,15 @@ a:hover i{
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
+  flex: 1;
+  margin-right: 20px;
+  width: 100%; /* Adjusted to 100% width */
+}
+
+.order-card:last-child,
+.rating-card:last-child,
+.offer-card:last-child {
+  margin-right: 0;
 }
 
 .order-card h4,
@@ -234,5 +254,21 @@ a:hover i{
 
   .dashboard-main {
     width: 100%;
+  }
+
+  .orders-section,
+  .ratings-section,
+  .location-section,
+  .portfolio-section,
+  .financials-section,
+  .offers-section {
+    flex-direction: column;
+  }
+
+  .order-card,
+  .rating-card,
+  .offer-card {
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 }
