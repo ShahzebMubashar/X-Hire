@@ -101,11 +101,13 @@ a:hover i{
   color: #fff;
   padding: 5px;
   width: 100%;
-  overflow-y: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
 }
 
 .sidebar-header {
-  padding-top: 1.3%;
+  padding-top: 1.5%;
   background-color: #343a40;
   color: white;
   padding-left: 2%;
@@ -125,8 +127,10 @@ a:hover i{
   list-style: none;
   display: flex;
   width: 60%;
-  height: 30px;
+  height: 60px;
   justify-content:space-between;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .sidebar-links li {
@@ -153,6 +157,10 @@ a:hover i{
 
 
 .sidebar-links a:hover {
+  color: #ffc107;
+}
+
+#rr:hover{
   color: #ffc107;
 }
 
@@ -185,6 +193,8 @@ a:hover i{
 
 .dashboard-header h2 {
   margin-bottom: 20px;
+  font-size: 35px;
+  text-align: center;
 }
 
 .orders-section,
@@ -199,6 +209,18 @@ a:hover i{
   margin-bottom: 40px;
 }
 
+.location-section{
+  display: block;
+}
+
+.financials-section{
+  display: block;
+}
+
+.offers-section{
+  display: block;
+}
+
 .orders-section h3,
 .ratings-section h3,
 .location-section h3,
@@ -207,12 +229,14 @@ a:hover i{
 .offers-section h3 {
   margin-bottom: 20px;
   font-size: 24px;
+  display: block;
+  width: 100%;
 }
 
 .order-card,
 .rating-card,
 .offer-card {
-  background-color: #f8f9fa;
+  background-color: #007bff98;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
