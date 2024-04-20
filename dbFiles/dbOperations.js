@@ -4,7 +4,7 @@ const config = require('./dbConfig'),
 const getEmployees = async () => {
     try {
         let pool = await sql.connect(config);
-        let employees = pool.request().query("Select * from Employees");
+        let employees = pool.request().query("Select * from emp");
         console.log(employees);
         return employees;
     }

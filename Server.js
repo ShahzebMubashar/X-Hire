@@ -1,5 +1,5 @@
 const express = require('express'),
-    dbOperations=require('./dFiles/dbOperations'),
+    dbOperations=require('./dbFiles/dbOperations'),
     cors = require('cors');
 
 dbOperations.getEmployees().then(res => {
