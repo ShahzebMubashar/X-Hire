@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\user\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:user\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\user\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:user\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\user\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:user\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\user\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:user\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\user\\home.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:user\\home.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\user\\otpcheck.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:user\\otpcheck.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|c:\\users\\shahz\\downloads\\hirex-main\\hirex-main\\user\\otpcheck.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D0C91A3F-3036-471F-9DE0-C6B88A6623B3}|ProjectDB.csproj|solutionrelative:user\\otpcheck.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-16T05:36:42.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "User\\Home.aspx.cs",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\Home.aspx.cs",
+              "RelativeToolTip": "User\\Home.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T05:06:46.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\Home.aspx.designer.cs",
+              "RelativeDocumentMoniker": "User\\Home.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\Home.aspx.designer.cs",
+              "RelativeToolTip": "User\\Home.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T05:06:43.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUp.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\SignUp.aspx.cs",
+              "RelativeDocumentMoniker": "User\\SignUp.aspx.cs",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\SignUp.aspx.cs",
+              "RelativeToolTip": "User\\SignUp.aspx.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAgwI0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T04:55:06.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\SignUp.aspx",
+              "RelativeDocumentMoniker": "User\\SignUp.aspx",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\SignUp.aspx",
+              "RelativeToolTip": "User\\SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-16T04:55:04.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OTPCheck.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\OTPCheck.aspx.cs",
+              "RelativeDocumentMoniker": "User\\OTPCheck.aspx.cs",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\OTPCheck.aspx.cs",
+              "RelativeToolTip": "User\\OTPCheck.aspx.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAYwFQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T04:54:27.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OTPCheck.aspx",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\OTPCheck.aspx",
+              "RelativeDocumentMoniker": "User\\OTPCheck.aspx",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\OTPCheck.aspx",
+              "RelativeToolTip": "User\\OTPCheck.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-16T04:52:57.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\Home.aspx",
+              "RelativeDocumentMoniker": "User\\Home.aspx",
+              "ToolTip": "C:\\Users\\shahz\\Downloads\\HireX-main\\HireX-main\\User\\Home.aspx",
+              "RelativeToolTip": "User\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-16T04:50:56.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
